@@ -63,6 +63,9 @@ It is recommended to review and adapt the code as needed. In some cases, reviewi
 It is recommended to review and adapt the code as needed. In some cases, reviewing the actual script being used (in the helpers subfolder) may be helpful. Depending on how complex or large the dataset is, it is easier to comment and uncomment sections of the Python script to run each step at a time.
 
 
+### scraper
+
+The code within this folder illustrates how a scraper can be built to collect images for academic research. As this is very custom-made for a very specific (one-time) implementation, it is recommended to review the code for inspiration only, and create your own code for your specific purposes. 
 
 
 
