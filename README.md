@@ -50,6 +50,18 @@ All files need to be included in a subfolder **source**.
 
 It is recommended to review and adapt the code as needed. In some cases, reviewing the actual script being used (in the helpers subfolder) may be helpful. Depending on how complex or large the dataset is, it is easier to comment and uncomment sections of the Python script to run each step at a time.
 
+### predict_fullsample
+
+* A Pandas dataframe containing the information of all images to be automatically categorized need to be available at within the folder predict_fullsample. This file should contain at least two columns: one with the path of the image (column name: path) and another  with the unique identifier for the image, which should match the filename without extension (column name: uniqueID).
+
+* The best performing models identified in the **train_models** step should be placed in a folder called "best_models", within the folder "predict_fullsample".
+
+* The API keys should be added to a file called **keys.py** available. An example can be found at the **keys_template.py** file; 'None' should be substituted by the API key (the API key must be inserted between quotation marks)
+
+* The code (predict_fullsample.py) illustrates how three commercial computer vision API's can be used to automatically categorize three binary variables (called gen_people, gen_planet and gen_profit) after models were trained in the previous step with a manually annotated subsample. 
+
+It is recommended to review and adapt the code as needed. In some cases, reviewing the actual script being used (in the helpers subfolder) may be helpful. Depending on how complex or large the dataset is, it is easier to comment and uncomment sections of the Python script to run each step at a time.
+
 
 
 
