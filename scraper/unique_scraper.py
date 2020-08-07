@@ -409,15 +409,3 @@ if __name__ == "__main__":
 
 
     
-
-
-
-    # 
-    # logger.info(str('started with ' + main_url + ' for company ' +  company + ' for project ' + project))
-    # logger.info(str('collect_images = ' + str(collect_images) + ' collect_links = ' + str(collect_images) + ' store_html = ' + str(store_html) + ' levels to crawl = ' + str(levels)))
-
-    # run_scraper(project, company, brand, id, link_full, domain, main_url, collect_links = collect_links, collect_images = collect_images, store_html = store_html, levels = levels)
-    # update_status_url(id, 'completed')
-
-
-
